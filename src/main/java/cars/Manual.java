@@ -12,7 +12,6 @@ public class Manual {
     private final Transmission transmission;
     private final TripComputer tripComputer;
     private final GPSNavigator gpsNavigator;
-
     public Manual(CarType carType, int seats, Engine engine, Transmission transmission,
                   TripComputer tripComputer, GPSNavigator gpsNavigator) {
         this.carType = carType;
@@ -22,7 +21,6 @@ public class Manual {
         this.tripComputer = tripComputer;
         this.gpsNavigator = gpsNavigator;
     }
-
     public String print() {
         String info = "";
         info += "Type of car: " + carType + "\n";
